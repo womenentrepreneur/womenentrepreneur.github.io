@@ -260,6 +260,12 @@ h5 {
   letter-spacing: 1px;
   text-transform: capitalize;
   margin-bottom: 20px; }
+  .blog-body h1 a {
+    color: #555;
+    transition: all 0.3s; }
+    .blog-body h1 a:hover {
+      color: #e952b9;
+      text-decoration: none; }
 
 .blog-body h2 {
   font-size: 26px;
@@ -768,7 +774,8 @@ blockquote {
     margin: 0 auto; }
 
 .contact-body .personal-sign {
-  float: right; }
+  float: right;
+  margin-bottom: 30px; }
 
 /*--------------------------------------------------------------
 # shop
@@ -982,6 +989,8 @@ blockquote {
   .footer-widget img {
     border: 5px solid #2d2d2d;
     margin: 0 auto 30px; }
+  .footer-widget .subscribe-box {
+    margin-bottom: 0; }
 
 /*--------------------------------------------------------------
 # footer
