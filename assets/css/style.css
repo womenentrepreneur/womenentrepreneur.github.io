@@ -529,14 +529,11 @@ blockquote {
   border-bottom: 1px solid #e0e0e0;
   position: relative; }
   .featured-review .featured-review-text {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translateY(-50%);
     padding: 30px;
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    background-color: #fff; }
+    max-width: 300px;
+    background-color: #fff;
+    margin: 0 auto; }
     .featured-review .featured-review-text h5 {
       margin-bottom: 15px; }
     .featured-review .featured-review-text p {
@@ -550,6 +547,12 @@ blockquote {
       border-top: 1px solid #e0e0e0;
       border-bottom: 1px solid #e0e0e0;
       padding: 1px 0; }
+    @media (min-width: 768px) {
+      .featured-review .featured-review-text {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translateY(-50%); } }
 
 .review {
   border-bottom: 1px solid #e0e0e0;
@@ -560,7 +563,7 @@ blockquote {
     content: ''; }
   .review footer {
     margin: 0 auto;
-    width: 50%; }
+    width: 60%; }
   .review img {
     float: left; }
   .review span {
