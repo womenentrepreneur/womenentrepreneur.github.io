@@ -320,6 +320,8 @@ table {
   width: 100%; }
 
 .more-link a {
+  display: block;
+  margin-bottom: 30px;
   font-family: "Open Sans";
   font-style: italic;
   font-size: 16px;
@@ -433,6 +435,9 @@ blockquote {
     color: #f8a1dd; }
   @media (min-width: 992px) {
     .banner-social {
+      margin-bottom: 40px; } }
+  @media (min-width: 1200px) {
+    .banner-social {
       margin-bottom: 80px; } }
 
 .banner .featured-img {
@@ -446,8 +451,9 @@ blockquote {
 .subscribe-box {
   background-color: #444444;
   color: #ffffff;
-  padding: 50px 30px;
+  padding: 30px;
   margin: 0 auto;
+  margin-bottom: 40px;
   max-width: 500px; }
   .subscribe-box span {
     font-family: "Open Sans";
@@ -462,7 +468,12 @@ blockquote {
     margin-bottom: 15px; }
   @media (min-width: 992px) {
     .subscribe-box {
-      max-width: 100%; } }
+      margin: 0; } }
+  @media (min-width: 1200px) {
+    .subscribe-box {
+      padding: 50px 30px;
+      max-width: 100%;
+      margin-bottom: 0px; } }
 
 /*--------------------------------------------------------------
 # ABOUT BANNER
@@ -476,7 +487,7 @@ blockquote {
     position: relative;
     color: #fff;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     border: none;
     max-width: 350px;
     line-height: 1.1;
@@ -966,7 +977,8 @@ blockquote {
 .footer-widget {
   background-color: #333333; }
   .footer-widget img {
-    border: 5px solid #2d2d2d; }
+    border: 5px solid #2d2d2d;
+    margin: 0 auto 30px; }
 
 /*--------------------------------------------------------------
 # footer

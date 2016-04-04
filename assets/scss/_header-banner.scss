@@ -29,7 +29,11 @@
     color: $color-brand-secondary;
   }
    @media (min-width: 992px){
-   margin-bottom: 80px;
+   margin-bottom: 40px;
+  }
+
+  @media (min-width:1200px){
+    margin-bottom: 80px;
   }
 }
 
@@ -39,14 +43,15 @@
 
   @media (min-width: 992px){
    max-width: 100%;
-   margin: 0; 
+   margin: 0;
   }
 }
 .subscribe-box {
   background-color: #444444;
   color: #ffffff;
-  padding: 50px 30px;
+  padding: 30px;
   margin: 0 auto;
+  margin-bottom: 40px;
   max-width: 500px;
 
   span {
@@ -63,9 +68,13 @@
     letter-spacing: 1px;
     margin-bottom: 15px; 
     }
-
-  @media (min-width: 992px){
+  @media (min-width:992px){
+    margin: 0;
+  }
+  @media (min-width: 1200px){
+    padding: 50px 30px;
    max-width: 100%;
+   margin-bottom: 0px;
   }
 
   }
@@ -86,7 +95,7 @@
     position: relative;
     color: #fff;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     border:none;
     max-width: 350px;
     line-height: 1.1;
