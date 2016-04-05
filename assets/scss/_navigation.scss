@@ -29,4 +29,18 @@
 	.navbar-nav>li>.dropdown-menu{
 		font-size: $font-secondary-size;
 	}
+
+	.navbar-brand{
+	font-size:16px;
+	font-weight: 800;
+	color: #555;
+
+	span{
+		font-weight: 400;
+		color: $color-brand-main;
+		letter-spacing: 1px;
+	}
+	}
 }
+
+

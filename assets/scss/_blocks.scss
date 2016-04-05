@@ -4,8 +4,8 @@
 
 .logos{
   background-color: $background-color-secondary;
-  padding-top:80px;
-  padding-bottom: 60px;
+  padding-top:60px;
+  padding-bottom: 40px;
 
   span{
     font-weight: 400;
@@ -13,13 +13,13 @@
   }
   img{
     display: inline-block;
-    padding: 30px 0;
+    padding: 40px 0;
   }
 }
 
 .logos-header{
   font-family: $font-family-secondary;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   text-transform: uppercase;
 }
 
@@ -78,7 +78,7 @@
 --------------------------------------------------------------*/
 
 .book-wrap{
-  background-color: #eeeeee;
+  background-color: #f7f7f7;
   padding: 30px;
   margin-bottom: 30px;
 
@@ -133,7 +133,8 @@
  .popular-article-date{
     width: 70px;
     height:60px;
-    background-color: #d8d7d7;
+    background-color: #f7f7f7;
+    border:1px solid rgba(0,0,0,0.1);
     float: left;
     margin-right: 20px;
     padding: 7px 10px;
@@ -147,7 +148,7 @@
  .big-date{
      font-size: 22px;
     font-weight: 800;
-    margin-bottom:7px;
+    margin-bottom:8px;
  }
   a{
    

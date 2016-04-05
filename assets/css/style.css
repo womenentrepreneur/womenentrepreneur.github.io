@@ -415,6 +415,14 @@ blockquote {
       color: #e952b9; }
   .main-navigation.navbar-default .navbar-nav > li > .dropdown-menu {
     font-size: 12px; }
+  .main-navigation.navbar-default .navbar-brand {
+    font-size: 16px;
+    font-weight: 800;
+    color: #555; }
+    .main-navigation.navbar-default .navbar-brand span {
+      font-weight: 400;
+      color: #e952b9;
+      letter-spacing: 1px; }
 
 /*--------------------------------------------------------------
 # BANNER
@@ -593,18 +601,18 @@ blockquote {
 --------------------------------------------------------------*/
 .logos {
   background-color: #eeeeee;
-  padding-top: 80px;
-  padding-bottom: 60px; }
+  padding-top: 60px;
+  padding-bottom: 40px; }
   .logos span {
     font-weight: 400;
     letter-spacing: 1px; }
   .logos img {
     display: inline-block;
-    padding: 30px 0; }
+    padding: 40px 0; }
 
 .logos-header {
   font-family: "Open Sans";
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   text-transform: uppercase; }
 
 .logo {
@@ -651,7 +659,7 @@ blockquote {
 # books
 --------------------------------------------------------------*/
 .book-wrap {
-  background-color: #eeeeee;
+  background-color: #f7f7f7;
   padding: 30px;
   margin-bottom: 30px; }
   .book-wrap .more-link a {
@@ -693,7 +701,8 @@ blockquote {
   .popular-article-wrap .popular-article-date {
     width: 70px;
     height: 60px;
-    background-color: #d8d7d7;
+    background-color: #f7f7f7;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     float: left;
     margin-right: 20px;
     padding: 7px 10px;
@@ -705,7 +714,7 @@ blockquote {
   .popular-article-wrap .big-date {
     font-size: 22px;
     font-weight: 800;
-    margin-bottom: 7px; }
+    margin-bottom: 8px; }
   .popular-article-wrap a {
     color: #e952b9;
     font-size: 17px;
