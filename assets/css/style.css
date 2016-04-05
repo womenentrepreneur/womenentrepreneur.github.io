@@ -592,9 +592,15 @@ blockquote {
 # Logos
 --------------------------------------------------------------*/
 .logos {
-  background-color: #eeeeee; }
+  background-color: #eeeeee;
+  padding-top: 80px;
+  padding-bottom: 60px; }
+  .logos span {
+    font-weight: 400;
+    letter-spacing: 1px; }
   .logos img {
-    display: inline-block; }
+    display: inline-block;
+    padding: 30px 0; }
 
 .logos-header {
   font-family: "Open Sans";
@@ -602,9 +608,8 @@ blockquote {
   text-transform: uppercase; }
 
 .logo {
-  height: 36px;
   text-align: center;
-  margin-bottom: 30px; }
+  height: 125px; }
 
 /*--------------------------------------------------------------
 # work with me
