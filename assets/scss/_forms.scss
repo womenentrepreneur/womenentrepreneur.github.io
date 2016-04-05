@@ -1,11 +1,19 @@
-.subscribe-box form input{
-	font-family: $font-family-secondary;
-	padding: 10px 10px;
-	border-radius: 2px;
-	border: none;
-	margin-bottom: 15px;
-	width: 100%;
+.subscribe-box{
+	form input{
+		font-family: $font-family-secondary;
+		padding: 10px 10px;
+		border-radius: 2px;
+		border: none;
+		margin-bottom: 15px;
+		width: 100%;
+		text-transform: capitalize;
+	}
+	p{
+		margin-bottom: 0;
+	}
 }
+
+
 
 .cta-button{
 	font-family: $font-family-secondary;
