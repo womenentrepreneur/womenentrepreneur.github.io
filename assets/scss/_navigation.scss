@@ -44,12 +44,20 @@
 
 	.navbar-header{
 		@media (min-width: 768px){
-			.navbar-header {
 			    float: none;
-			}
+			    width: 50%;	
+			    margin: 0 auto;		    
+		}
+
+		@media (min-width: 992px){
+			    float: left;
+			    width: auto;
+			    margin: 0;
 		}
 	}
 	
+
+
 }
 
 

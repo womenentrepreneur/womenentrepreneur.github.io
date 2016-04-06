@@ -424,8 +424,15 @@ blockquote {
       color: #e952b9;
       letter-spacing: 1px; }
   @media (min-width: 768px) {
-    .main-navigation.navbar-default .navbar-header .navbar-header {
-      float: none; } }
+    .main-navigation.navbar-default .navbar-header {
+      float: none;
+      width: 50%;
+      margin: 0 auto; } }
+  @media (min-width: 992px) {
+    .main-navigation.navbar-default .navbar-header {
+      float: left;
+      width: auto;
+      margin: 0; } }
 
 /*--------------------------------------------------------------
 # BANNER
