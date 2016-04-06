@@ -39,8 +39,17 @@
 		font-weight: 400;
 		color: $color-brand-main;
 		letter-spacing: 1px;
+		}
 	}
+
+	.navbar-header{
+		@media (min-width: 768px){
+			.navbar-header {
+			    float: none;
+			}
+		}
 	}
+	
 }
 
 

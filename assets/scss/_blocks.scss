@@ -76,11 +76,14 @@
 /*--------------------------------------------------------------
 # books
 --------------------------------------------------------------*/
-
-.book-wrap{
+.books{
   background-color: #f7f7f7;
+}
+.book-wrap{
+  background-color: #fff;
   padding: 30px;
   margin-bottom: 30px;
+  border: 1px solid rgba(0,0,0,0.1);
 
   .more-link a{
     margin-bottom: 0;
@@ -324,12 +327,13 @@
 
 .product-wrapper{
   padding: 30px 0;
-  background-color: $background-color-secondary;
+  background-color: #f7f7f7;
   height:240px;
 }
 
 .product-meta{
-  background-color: #e6e6e6;
+  background-color: #f7f7f7;
+  border-top: 1px solid rgba(0,0,0,0.1);
   padding: 20px;
 }
 
